@@ -18,5 +18,11 @@ public class Main
       words.add(input);
       System.out.println("The ArraList is now " + words);
     }
+    if (words.size() > 2)
+    {
+      words.remove(0);
+      System.out.println("Removed the first element " + words);
+      
+    }
   }
 }
